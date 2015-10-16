@@ -1,0 +1,8 @@
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\bin\Debug\Teclas.exe
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\bin\Debug\Teclas.pdb
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\obj\Debug\Teclas.csprojResolveAssemblyReference.cache
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\obj\Debug\Teclas.Properties.Resources.resources
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\obj\Debug\Teclas.csproj.GenerateResource.Cache
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\obj\Debug\Teclas.exe
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\obj\Debug\Teclas.pdb
+C:\Users\tcastan\Documents\Visual Studio 2012\Projects\Teclas\Teclas\obj\Debug\Teclas.Form1.resources
