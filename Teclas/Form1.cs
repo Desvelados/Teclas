@@ -28,11 +28,11 @@ namespace Teclas
             f1lbl.ForeColor = Color.Red;
             f2lbl.ForeColor = Color.Red;
 
-            timerF1 = new System.Timers.Timer(2010);
+            timerF1 = new System.Timers.Timer(3210);
             timerF1.Elapsed += OnTimedEvent;
             timerF1.AutoReset = true;
 
-            timerF2 = new System.Timers.Timer(700);
+            timerF2 = new System.Timers.Timer(600);
             timerF2.Elapsed += OnTimedEvent2;
             timerF2.AutoReset = true;
         }
@@ -84,15 +84,19 @@ namespace Teclas
         private static void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
             SendKeys.SendWait("{UP}");
+            System.Threading.Thread.Sleep(300);
             SendKeys.SendWait("{UP}");
             System.Threading.Thread.Sleep(500);
             SendKeys.SendWait("{RIGHT}");
+            System.Threading.Thread.Sleep(300);
             SendKeys.SendWait("{RIGHT}");
             System.Threading.Thread.Sleep(500);
             SendKeys.SendWait("{DOWN}");
+            System.Threading.Thread.Sleep(300);
             SendKeys.SendWait("{DOWN}");
             System.Threading.Thread.Sleep(500);
             SendKeys.SendWait("{LEFT}");
+            System.Threading.Thread.Sleep(300);
             SendKeys.SendWait("{LEFT}");
             System.Threading.Thread.Sleep(500);
         }
