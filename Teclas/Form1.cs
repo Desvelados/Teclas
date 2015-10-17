@@ -105,9 +105,13 @@ namespace Teclas
         private void button1_Click(object sender, EventArgs e)
         {
             corriendo = false;
+            hablando = false;
             timerF1.Stop();
+            timerF2.Stop();
             timerF1.Close();
+            timerF2.Close();
             timerF1.Dispose();
+            timerF2.Dispose();
             this.Close();
         }
     }
